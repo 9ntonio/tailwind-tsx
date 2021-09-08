@@ -3,22 +3,9 @@ import logo from "./logo.svg";
 import "./App.scss";
 
 const App = (): JSX.Element => (
-  <div className="app">
-    <header className="app-header">
-      <img src={logo} className="app-logo" alt="logo" />
-      <p>
-        Edit <code>src/App.tsx</code> and save to reload.
-      </p>
-      <a
-        className="app-link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Learn React
-      </a>
-    </header>
-  </div>
+  <>
+    <div className="max-w-md mx-auto bg-red-500">Hello</div>
+  </>
 );
 
 export default App;

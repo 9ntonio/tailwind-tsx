@@ -6,10 +6,6 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   important: false,
   theme: {
-    container: {
-      center: true,
-      padding: "2rem"
-    },
     screens: {
       sm: "640px",
       md: "768px",
@@ -1034,5 +1030,5 @@ module.exports = {
     wordBreak: ["responsive"],
     zIndex: ["responsive", "focus-within", "focus"]
   },
-  plugins: []
+  plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")]
 };

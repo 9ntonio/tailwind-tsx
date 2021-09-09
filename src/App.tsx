@@ -2,7 +2,7 @@ import React from "react";
 import "./App.scss";
 
 const App = (): JSX.Element => (
-  <section className="antialiased text-gray-900 px-6">
+  <section className="subpixel-antialiased text-gray-900 px-6">
     <div className="max-w-xl mx-auto py-12 divide-y md:max-w-4xl">
       <div className="grid grid-rows-1 grid-flow-col auto-cols-max mb-6 flex justify-center">
         <h1 className="font-serif pr-8">¡Howdy!</h1>
@@ -57,7 +57,7 @@ const App = (): JSX.Element => (
             </label>
             <label className="block">
               <span className="text-gray-700">Additional details</span>
-              <textarea className="mt-1 block w-full"></textarea>
+              <textarea className="mt-1 block w-full" />
             </label>
             <div className="block">
               <div className="mt-2">
@@ -113,7 +113,7 @@ const App = (): JSX.Element => (
             </label>
             <label className="block">
               <span className="text-gray-700">Additional details</span>
-              <textarea className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"></textarea>
+              <textarea className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" />
             </label>
             <div className="block">
               <div className="mt-2">
@@ -172,7 +172,7 @@ const App = (): JSX.Element => (
             </label>
             <label className="block">
               <span className="text-gray-700">Additional details</span>
-              <textarea className="mt-0 block w-full px-0.5 border-0 border-b-2 border-gray-200 focus:ring-0 focus:border-black"></textarea>
+              <textarea className="mt-0 block w-full px-0.5 border-0 border-b-2 border-gray-200 focus:ring-0 focus:border-black" />
             </label>
             <div className="block">
               <div className="mt-2">

@@ -3,23 +3,42 @@ import "./App.scss";
 
 const App = (): JSX.Element => (
   <section className="subpixel-antialiased text-gray-900 px-6">
-    <div className="max-w-xl mx-auto py-12 divide-y md:max-w-4xl">
+    <div className="lg:max-w-screen-xl md:max-w-lg mx-auto py-12 divide-y">
       <div className="grid grid-rows-1 grid-flow-col auto-cols-max mb-6 flex justify-center">
-        <h1 className="font-serif pr-8">¡Howdy!</h1>
-        <button className="btn btn--primary">Decline</button>
+        <h1 className="font-serif pr-8">¡Howdy! Tailwind CSS</h1>
+        <a
+          href="https://tailwindcss.com/docs"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn btn--primary"
+        >
+          Documentation
+        </a>
       </div>
 
       <article className="mx-auto text-center p-6 prose lg:prose-2xl">
         <h1>Garlic bread with cheese: What the science tells us</h1>
         <p>
-          For years parents have espoused the health benefits of eating garlic
-          bread with cheese to their children, with the food earning such an
-          iconic status in our culture that kids will often dress up as warm,
-          cheesy loaf for Halloween.
-        </p>
-        <p>
-          But a recent study shows that the celebrated appetizer may be linked
-          to a series of rabies cases springing up around the country.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae
+          tortor condimentum lacinia quis vel. Malesuada fames ac turpis egestas
+          integer eget aliquet nibh. Tristique nulla aliquet enim tortor at
+          auctor urna nunc.{" "}
+          <a
+            href="https://tailwindcss.com/docs"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Placerat
+          </a>{" "}
+          duis ultricies lacus sed turpis tincidunt id. Eget velit aliquet
+          sagittis id consectetur purus ut. Enim sed faucibus turpis in. Duis
+          tristique sollicitudin nibh sit amet commodo nulla facilisi. Nullam
+          non nisi est sit amet facilisis magna etiam tempor. Tortor consequat
+          id porta nibh venenatis cras. At tempor commodo ullamcorper a lacus
+          vestibulum sed arcu non. Phasellus vestibulum lorem sed risus
+          ultricies tristique nulla aliquet. Sed turpis tincidunt id aliquet
+          risus feugiat in. Non arcu risus quis varius quam quisque id diam vel.
         </p>
       </article>
 
@@ -32,7 +51,11 @@ const App = (): JSX.Element => (
           <div className="grid grid-cols-1 gap-6">
             <label className="block">
               <span className="text-gray-700">Full name</span>
-              <input type="text" className="mt-1 block w-full" placeholder="" />
+              <input
+                type="text"
+                className="mt-1 block w-full"
+                placeholder="placeholder"
+              />
             </label>
             <label className="block">
               <span className="text-gray-700">Email address</span>
@@ -84,7 +107,7 @@ const App = (): JSX.Element => (
               <input
                 type="text"
                 className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
-                placeholder=""
+                placeholder="placeholder"
               />
             </label>
             <label className="block">

@@ -94,7 +94,7 @@ const App = (): JSX.Element => (
       <div className="py-12">
         <h2 className="text-2xl font-bold">Unstyled</h2>
         <p className="mt-2 text-lg text-gray-600">
-          This is how form elements look out of the box.
+          This is how form elements look out of the box in Tailwind CSS.
         </p>
         <div className="mt-8 max-w-xl">
           <div className="grid grid-cols-1 gap-6">
@@ -149,6 +149,7 @@ const App = (): JSX.Element => (
 
       <div className="py-12">
         <h2 className="text-2xl font-bold">Simple</h2>
+        <p className="mt-2 text-lg text-gray-600">Styled using Tailwind CSS.</p>
         <div className="mt-8 max-w-xl">
           <div className="grid grid-cols-1 gap-6">
             <label className="block">
@@ -208,6 +209,7 @@ const App = (): JSX.Element => (
 
       <div className="py-12">
         <h2 className="text-2xl font-bold">Underline</h2>
+        <p className="mt-2 text-lg text-gray-600">Styled using Tailwind CSS.</p>
         <div className="mt-8 max-w-xl">
           <div className="grid grid-cols-1 gap-6">
             <label className="block">

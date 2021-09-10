@@ -1,10 +1,10 @@
-@import '~antd/dist/antd.css';
+@import "~antd/dist/antd.css";
 
 .btn--primary {
-	@apply bg-red-600 text-white;
-	@apply rounded-lg;
+  @apply bg-red-600 text-white;
+  @apply rounded-lg;
 }
 
 .btn--secondary {
-	@apply bg-gray-100 text-black;
+  @apply bg-gray-100 text-black;
 }

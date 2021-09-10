@@ -5,7 +5,7 @@ module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   presets: [],
   darkMode: false, // or 'media' or 'class'
-  important: false,
+  important: true,
   theme: {
     screens: {
       sm: "640px",

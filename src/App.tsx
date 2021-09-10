@@ -43,6 +43,32 @@ const App = (): JSX.Element => (
         </p>
       </article>
 
+      <article className="mx-auto text-center p-6">
+        <h1>Garlic bread with cheese: What the science tells us</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae
+          tortor condimentum lacinia quis vel. Malesuada fames ac turpis egestas
+          integer eget aliquet nibh. Tristique nulla aliquet enim tortor at
+          auctor urna nunc.{" "}
+          <a
+            href="https://tailwindcss.com/docs"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Placerat
+          </a>{" "}
+          duis ultricies lacus sed turpis tincidunt id. Eget velit aliquet
+          sagittis id consectetur purus ut. Enim sed faucibus turpis in. Duis
+          tristique sollicitudin nibh sit amet commodo nulla facilisi. Nullam
+          non nisi est sit amet facilisis magna etiam tempor. Tortor consequat
+          id porta nibh venenatis cras. At tempor commodo ullamcorper a lacus
+          vestibulum sed arcu non. Phasellus vestibulum lorem sed risus
+          ultricies tristique nulla aliquet. Sed turpis tincidunt id aliquet
+          risus feugiat in. Non arcu risus quis varius quam quisque id diam vel.
+        </p>
+      </article>
+
       <div className="py-12">
         <h2 className="text-2xl font-bold">Ant Design</h2>
         <p className="mt-2 text-lg text-gray-600">

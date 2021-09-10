@@ -1,16 +1,17 @@
 import React from "react";
 import "./App.scss";
+import AntForm from "./ant/AntForm";
 
 const App = (): JSX.Element => (
   <section className="subpixel-antialiased text-gray-900 px-6">
     <div className="lg:max-w-screen-xl md:max-w-lg mx-auto py-12 divide-y">
       <div className="grid grid-rows-1 grid-flow-col auto-cols-max mb-6 flex justify-center">
-        <h1 className="font-serif pr-8">¡Howdy! Tailwind CSS</h1>
+        <h1 className="font-serif pr-8 mb-0">¡Howdy! Tailwind CSS</h1>
         <a
           href="https://tailwindcss.com/docs"
           target="_blank"
           rel="noopener noreferrer"
-          className="btn btn--primary"
+          className="ant-btn btn--primary my-auto"
         >
           Documentation
         </a>
@@ -41,6 +42,28 @@ const App = (): JSX.Element => (
           risus feugiat in. Non arcu risus quis varius quam quisque id diam vel.
         </p>
       </article>
+
+      <div className="py-12">
+        <h2 className="text-2xl font-bold">Ant Design</h2>
+        <p className="mt-2 text-lg text-gray-600">
+          This is how form elements look out of the{" "}
+          <strong>
+            <a
+              href="https://ant.design/docs/react/customize-theme"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ant Design
+            </a>
+          </strong>{" "}
+          box.
+        </p>
+        <div className="mt-8 max-w-xl">
+          <div className="grid grid-cols-1 gap-6">
+            <AntForm />
+          </div>
+        </div>
+      </div>
 
       <div className="py-12">
         <h2 className="text-2xl font-bold">Unstyled</h2>

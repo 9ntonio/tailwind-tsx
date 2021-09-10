@@ -1,9 +1,8 @@
-.btn {
-	@apply text-base font-medium rounded-lg p-3;
-}
+@import '~antd/dist/antd.css';
 
 .btn--primary {
 	@apply bg-red-600 text-white;
+	@apply rounded-lg;
 }
 
 .btn--secondary {

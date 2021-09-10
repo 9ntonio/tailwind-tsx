@@ -1,9 +1,10 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import React, { useState } from "react";
 import {
   Form,
   Input,
   Button,
+  Radio,
   Select,
   Cascader,
   DatePicker,
@@ -14,6 +15,10 @@ import {
 
 const AntForm = (): JSX.Element => {
   const [componentSize, setComponentSize] = useState("default");
+
+  const onFormLayoutChange = ({ size }: any) => {
+    setComponentSize(size);
+  };
 
   return (
     <Form
@@ -27,7 +32,16 @@ const AntForm = (): JSX.Element => {
       initialValues={{
         size: componentSize
       }}
+      onValuesChange={onFormLayoutChange}
+      size={componentSize as any}
     >
+      <Form.Item label="Form Size" name="size">
+        <Radio.Group>
+          <Radio.Button value="small">Small</Radio.Button>
+          <Radio.Button value="default">Default</Radio.Button>
+          <Radio.Button value="large">Large</Radio.Button>
+        </Radio.Group>
+      </Form.Item>
       <Form.Item label="Input">
         <Input />
       </Form.Item>
